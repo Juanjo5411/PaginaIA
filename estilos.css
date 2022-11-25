@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('imagenes/fondo5.jpg');
+    background-size: 100%;
+}
+/*.main{
+    background: gray;
+} */
+article{
+    margin: 10px;
+    padding: 10px;
+    background: #ccc;
+    border: 2px solid black;
+    position: relative;
+}
+header,.main, footer{
+   /* background: white; */
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+
+header nav {
+    background:rgb(13, 99, 99);
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: #75ACEC;
+    cursor: pointer;
+}
+header nav ul li a:active{
+    background: rgb(31, 100, 212);
+}
+.art{
+    height: 100px;
+    width: 100px;
+}
+ article .ca{
+    position: absolute;
+    left: 30%;
+    bottom: 40%;
+    top: 40%;
+    font-size: 25px;
+}
+.nc{
+    text-align: center;
+    font-size: 18px;
+}
+div div{
+    color: black;
+    font-size: 18;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div canvas{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 38%;
+}
+.cen{
+    text-align: center;
+}
+button{
+    width: 50px;
+    height: 30px;
+    align-items: center;
+}
